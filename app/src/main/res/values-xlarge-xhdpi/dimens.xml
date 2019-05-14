@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_height_30dp">55dp</dimen>
+    <dimen name="layout_height_200dp">350dp</dimen>
+    <dimen name="layout_height_70dp">130dp</dimen>
+    <dimen name="layout_height_40dp">70dp</dimen>
+    <dimen name="layout_height_60dp">115dp</dimen>
+    <dimen name="layout_height_280dp">520dp</dimen>
+    <dimen name="layout_height_10dp">25dp</dimen>
+    <dimen name="layout_height_50dp">90dp</dimen>
+    <dimen name="layout_padding_8dp">14dp</dimen>
+    <dimen name="layout_height_15dp">35dp</dimen>
+    <dimen name="layout_height_5dp">9dp</dimen>
+    <dimen name="layout_height_100dp">160dp</dimen>
+    <dimen name="layout_height_150dp">280dp</dimen>
+    <dimen name="layout_height_120dp">220dp</dimen>
+    <dimen name="layout_height_170dp">300dp</dimen>
+    <dimen name="layout_height_130dp">240dp</dimen>
+    <dimen name="layout_height_220dp">420dp</dimen>
+    <dimen name="layout_height_80dp">150dp</dimen>
+    <dimen name="layout_height_250dp">480dp</dimen>
+    <dimen name="layout_height_20dp">35dp</dimen>
+    <dimen name="layout_height_25dp">45dp</dimen>
+    <dimen name="layout_height_90dp">160dp</dimen>
+    <dimen name="layout_height_3dp">5dp</dimen>
+    <dimen name="text_size_20sp">37sp</dimen>
+    <dimen name="text_size_15sp">30sp</dimen>
+    <dimen name="text_size_35sp">67sp</dimen>
+    <dimen name="text_size_30sp">55sp</dimen>
+    <dimen name="text_size_10sp">18sp</dimen>
+    <dimen name="text_size_12sp">21sp</dimen>
+    <dimen name="text_size_25sp">45sp</dimen>
+</resources>

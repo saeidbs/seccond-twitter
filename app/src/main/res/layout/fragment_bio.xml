@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/activity_bio_constrainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/activity_bio_post_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/activity_bio_follower_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posts"
+                app:layout_constraintEnd_toStartOf="@id/activity_bio_Text_view_follower_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/activity_bio_Text_view_post_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/activity_bio_button_follow"
+                app:layout_constraintEnd_toStartOf="@id/activity_bio_Text_view_follower_counter"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="111"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_bio_follower_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="@id/activity_bio_post_layout"
+            app:layout_constraintStart_toEndOf="@id/activity_bio_post_layout"
+            app:layout_constraintEnd_toStartOf="@id/activity_bio_following_layout">
+
+            <TextView
+                android:id="@+id/activity_bio_Text_view_follower_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follower" />
+
+            <TextView
+                android:id="@+id/activity_bio_Text_view_follower_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_bio_following_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="@id/activity_bio_post_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/activity_bio_follower_layout">
+
+            <TextView
+                android:id="@+id/activity_bio_Text_view_following_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Following" />
+
+            <TextView
+                android:id="@+id/activity_bio_Text_view_following_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="TEST" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_bio_text_view_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_height_10dp"
+            android:padding="@dimen/layout_height_10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/activity_bio_post_layout"
+            tools:text="YOUR BIO GRAPHY" />
+
+
+        <Button
+            android:id="@+id/activity_bio_button_follow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_height_10dp"
+            android:text="Follow"
+            app:layout_constraintTop_toBottomOf="@id/activity_bio_text_view_bio"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/activity_bio_button_block"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/activity_bio_button_block"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="block"
+            app:layout_constraintStart_toEndOf="@id/activity_bio_button_follow"
+            app:layout_constraintTop_toTopOf="@id/activity_bio_button_follow"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_bio_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_bio_constrainlayout" />
+
+
+</android.support.constraint.ConstraintLayout>

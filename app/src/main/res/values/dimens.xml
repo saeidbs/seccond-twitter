@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="action_bar_size">?attr/actionBarSize</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="layout_height_30dp">30dp</dimen>
+    <dimen name="layout_height_200dp">200dp</dimen>
+    <dimen name="layout_height_70dp">70dp</dimen>
+    <dimen name="layout_height_40dp">40dp</dimen>
+    <dimen name="layout_height_60dp">60dp</dimen>
+    <dimen name="layout_height_280dp">280dp</dimen>
+    <dimen name="layout_height_10dp">10dp</dimen>
+    <dimen name="layout_height_50dp">50dp</dimen>
+    <dimen name="layout_padding_8dp">14dp</dimen>
+    <dimen name="layout_height_15dp">15dp</dimen>
+    <dimen name="layout_height_5dp">5dp</dimen>
+    <dimen name="layout_height_100dp">100dp</dimen>
+    <dimen name="layout_height_150dp">150dp</dimen>
+    <dimen name="layout_height_120dp">120dp</dimen>
+    <dimen name="layout_height_170dp">170dp</dimen>
+    <dimen name="layout_height_130dp">130dp</dimen>
+    <dimen name="layout_height_220dp">220dp</dimen>
+    <dimen name="layout_height_80dp">80dp</dimen>
+    <dimen name="layout_height_250dp">250dp</dimen>
+    <dimen name="layout_height_20dp">20dp</dimen>
+    <dimen name="layout_height_25dp">25dp</dimen>
+    <dimen name="layout_height_90dp">90dp</dimen>
+    <dimen name="layout_height_3dp">3dp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_35sp">35sp</dimen>
+    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_25sp">25sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">56dp</dimen>
+</resources>
